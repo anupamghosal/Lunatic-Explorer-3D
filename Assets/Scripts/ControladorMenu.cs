@@ -8,13 +8,13 @@ public class ControladorMenu : MonoBehaviour {
     public void pasarNivel1()
     {
         Time.timeScale = 1f; 
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Nivel1");
     }
 
     public void pasarNivel2()
     {
         Time.timeScale = 1f; 
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Nivel2");
     }
 
 
